@@ -1,2 +1,2 @@
 #!/bin/bash
-(ls -la "$PWD" | cat) | (ls -la "$PWD/.." | cat) | (ls -la /boot | cat)
+ls -la . .. /boot
